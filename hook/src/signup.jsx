@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Signup() {
     return (
+        <section className="app">
         <div className="signup">
             <form method="post/get">
                 <h1>Sign Up</h1>
@@ -11,9 +12,10 @@ export default function Signup() {
                 <label for="password">Password</label><input type="password" id="password" name="password"></input>
                 <label for="cpassword">Confirm Password</label><input type="password" id="cpassword" name="cpassword"></input>
                 <input type="submit" id="button" name="button"></input>
-                <p>By clicking the Sign Up button,you agree to our<a href="#">Terms and Condition </a> and<a href="#">Policy Privacy</a></p>
+                <p id='cnfm'>By clicking the Sign Up button,you agree to our<a href="#">Terms and Condition </a> and<a href="#">Policy Privacy</a></p>
             </form>
-            <p id="paragraph">Already have an account?<a href="#">Login here</a></p>
+            <p id="para">Already have an account?<a href="#">Login here</a></p>
         </div>
+        </section>
     )
 };

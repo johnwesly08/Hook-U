@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react'
 
 
-export default function Load() {
+export default function Loader() {
     return (
         <Fragment>
-            <div id="loader"></div>
-            <h2>Loading.....</h2>
+            <section className="app">
+                <div className="loader"></div>
+                <h2>Loading.....</h2>
+            </section>
         </Fragment>
     )
-}
+};

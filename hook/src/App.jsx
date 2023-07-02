@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Login } from './login'
-import { Signup } from './signup'
-import { Loader } from './loader'
+import Signup from './signup'
+import Loader from './loader'
 
 function App() {
   return (
