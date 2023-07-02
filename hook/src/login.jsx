@@ -3,7 +3,7 @@ import React,{Fragment} from 'react'
 
 export function Login() {
     return (
-            <div className="Login">
+            <div className="login">
                 <form method="post/get">
                     <h1>Login</h1>
                     <label  for="username">Username</label><input type="text" id="uname" name="uname"></input>
