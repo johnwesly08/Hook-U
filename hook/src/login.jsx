@@ -7,8 +7,8 @@ export function Login() {
             <div className="login">
                 <form method="post/get">
                     <h1>Login</h1>
-                    <label  for="username">Username</label><input type="text" id="uname" name="uname"></input>
-                    <label  for="password">Password</label><input type="password" id="password" name="pwd"></input>
+                    <label  htmlFor="username">Username</label><input type="text" id="uname" name="uname"></input>
+                    <label  htmlFor="password">Password</label><input type="password" id="password" name="password"></input>
                     <input type="submit" id="button" name="button"></input>
                 </form>
                 <p id="para">Not have an account?<a href="#">Sign Up Here</a></p>
